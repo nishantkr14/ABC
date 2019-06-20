@@ -1,0 +1,163 @@
+body{
+	background-color:#e9ebeb;
+	background-image: url(ludos.jpg);
+	background-size: cover;
+}
+.image{
+	margin-left: 100px;
+	margin-bottom: 50px;
+	width: 10%;
+}
+
+.red{
+    position: relative;
+    left: 90;
+    top: -20;
+	background-color: #cb731a;
+	height: 60px;
+	width: 120px;
+	float:left;
+
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-left: 0px;
+}
+.maze{
+    position: relative;
+    top:-70px;
+    left: 50px;
+    justify-content: space-around;
+
+	height:380px;
+	width: 380px;
+	margin: 20px;
+	display: inline-grid;
+	margin: 120px;
+	margin-left: 40px;
+	}
+.controls{ 
+    float: right;
+   border: 2px solid brown;
+    height: 160px;
+    width: 200px;
+   
+    background-color: bisque;
+   
+}
+
+.blue{
+  
+        position: relative;
+   left: 600px;
+    bottom: 170px;
+	background-color: #49221b;
+	height:60px;
+	width: 120px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+
+ul{
+	margin: 0px;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+li{
+	display: inline-block;
+	width: 35px;
+	height:35px;
+	background-color: white;
+	list-style: none;
+	border-radius: 50%;
+    margin: 2px;
+}
+.tabl{
+	width:380px;
+   
+/*background-color: #c5ae6b;*/
+}
+.pa{
+	width:40px;
+	height:40px;
+	background-color: white;
+	border: 2px solid #49221b;
+}
+.pc{
+	width:40px;
+	height:40px;
+	background-color: white;
+	float: right;
+	border: 2px solid #49221b;
+    margin-right:px;
+}
+
+
+.pd{
+	width:40px;
+	height:40px;
+	background-color:#dbca98;
+	border: 2px solid #49221b;
+    display: inline-block;
+   
+}
+.deco
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: red;
+	margin: 0px;
+	
+
+}
+.divisionr{
+	width: 70%;
+	height: 70%;
+	margin: 16%;
+	background-color: #cb731a;
+	border-radius: 50%;
+}
+.divisionb{
+	width: 70%;
+	height: 70%;
+	margin: 16%;
+	background-color:#49221b;
+	border-radius: 50%;
+}
+
+.inpu{
+	width: 100px;
+	height: 20px;
+	border-radius:0.5px;
+}
+.chk{
+	width: 60px;
+	height: 20px;
+	font-size: 10px;
+	border-radius:2px;
+	background-color: #cb731a;
+	outline: none;
+	color:white;
+
+}
+#buta{
+		width:50px;
+	height: 50px;
+	font-size:8px;
+	color: white;
+	border-radius:50%;
+	background-color:maroon;
+	outline: none;
+}
+.spa{
+	background-color: white;
+	 width:50px;
+	  height:50px;
+	
+	border-radius: 20%;
+}
+.pb{
+  text-align: center; 
+}
