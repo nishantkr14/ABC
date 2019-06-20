@@ -1,8 +1,8 @@
-
-function rand()
+alert("Welcome!! Click okk to continue");
+function rand(b)
 {
     randoma=Math.floor((Math.random()*6)+1);
-    var b=document.getElementByID("imgg");
+    
     if(randoma==1)
     {
         b.src="d1.png";
@@ -36,4 +36,4 @@ function numRand(y)
     window.ra=randoma;
 }
 
-alert("Welcome!! Click okk to continue");
+
