@@ -37,4 +37,4 @@ function numRand(y)
     window.ra=randoma;
 }
 
-alert(ra);
+alert(Welcome!! Click okk to continue);
