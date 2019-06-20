@@ -1,8 +1,7 @@
-var ra;
 
 function rand()
 {
-    randoma=Math.floor(Math.random()*6+1);
+    randoma=Math.floor((Math.random()*6)+1);
     var b=document.getElementByID("imgg");
     if(randoma==1)
     {
