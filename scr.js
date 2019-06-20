@@ -1,7 +1,7 @@
 alert("Welcome!! Click okk to continue");
 function rand(b)
 {
-    randoma=Math.floor((Math.random()*6)+1);
+    var randoma=Math.floor((Math.random()*6)+1);
     
     if(randoma==1)
     {
@@ -28,12 +28,6 @@ else if(randoma==4)
         b.src="d6.png";
     }
   
-}
-function numRand(y)
-{
-    rand();
-    y.innerHTML=randoma;
-    window.ra=randoma;
 }
 
 
